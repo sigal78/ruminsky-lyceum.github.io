@@ -1,0 +1,270 @@
+@import 'fotorama.css';
+@import '/font.css';
+.title {
+  color: #fff;
+}
+.logo {
+  width: 150px;
+  float: left;
+  padding: 5px;
+}
+p,
+li {
+  font-size: 14px;
+  padding: 5px;
+}
+h1 {
+  font-size: 28px;
+  color: #eee;
+}
+h2 {
+  font-size: 24px;
+  color: #eee;
+}
+h3 {
+  font-size: 18px;
+  color: #eee;
+}
+h4 {
+  text-decoration: underline;
+}
+.left_text {
+  text-align: right;
+  background: url("down.png");
+}
+.about_text {
+  text-indent: 15px;
+}
+text-align: justify,
+.aboutrl_ul {
+  text-align: justify;
+}
+body {
+  font: 'Linux Biolinum';
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  background-image: url("darkwood_green.jpg");
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
+.top-background {
+  background: url("autumn.png");
+  height: 90px;
+  width: 100%;
+}
+header {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #fff;
+}
+header a.glavs {
+  float: left;
+  display: block;
+  max-width: 100px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #ccc;
+/*background-color: url("touch.png");*/
+  font-family: , sans-serif;
+  font-size: 16px;
+/*padding-left:15px;*/
+  padding: 5px;
+  padding-left: 10px;
+}
+header a.glavs:hover {
+  color: #fff;
+  font-weight: bold;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.container .header {
+  text-align: center;
+  font-family: 'Linux Biolinum', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  color: #eee;
+}
+.container .sidebar {
+  float: left;
+  width: 300px;
+  background-color: rgba(0,0,0,0.1);
+  font-family: 'Linux Biolinum', sans-serif;
+  font-weight: bold;
+}
+.container .sidebar a {
+  color: #ccc;
+  font-weight: bold;
+}
+.container .sidebar p {
+  color: #ccc;
+}
+.container .sidebar h1,
+.container .sidebar h3 {
+  margin-left: 40px;
+  color: #fff;
+  font-size: 24px;
+}
+.container .sidebar .map {
+  margin-left: 40px;
+}
+.container .sidebar ul {
+  padding: 0;
+}
+.container .sidebar li {
+  margin: 0px 10px;
+  list-style-type: none;
+  border-top: 1px dotted #ccc;
+}
+.container .sidebar li * {
+  margin-left: 30px;
+}
+.container .content {
+  float: left;
+  width: 700px;
+  margin-left: 20px;
+  font-family: 'Linux Biolinum', sans-serif;
+}
+.container .information .photo {
+  width: 200px;
+  float: left;
+}
+.container .information .text {
+  margin-left: 40px;
+  float: left;
+  width: 400px;
+}
+.container footer {
+  display: block;
+  font-size: 12px;
+  font-family: 'Linux Biolinum', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+.container footer .line {
+  height: 20px;
+  width: 100%;
+  content: " ";
+  border-top: 1px solid #ccc;
+}
+.container footer .t2 {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -moz-column-width: 150px;
+  -webkit-column-width: 150px;
+  column-width: 150px;
+  -moz-column-rule: 2px dotted #ccc;
+  -webkit-column-rule: 2px dotted #ccc;
+  column-rule: 2px dotted #ccc;
+  font-family: 'Linux Biolinum', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+.copyright {
+  padding-top: 50px /* Поля */;
+  margin: auto /* Выравнивание по центру */;
+  color: #eee /* Цвет текста */;
+  font-size: 10px;
+}
+.map1 {
+  width: 200px;
+}
+/*кнопка поднятия вверх сайта*/
+#toTop {
+  position: fixed;
+  bottom: 20px;
+  right: 2px;
+  background: none;
+  cursor: pointer;
+}
+.fotorama {
+  width: 900px;
+  align-content: center;
+}
+a,
+a:visited {
+  color: #eee;
+}
+.holy {
+  text-decoration: underline;
+}
+/* выскакивающие окна */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+  overflow-y: scroll;
+  text-align: justify;
+}
+.teacher {
+  position: relative;
+  width: 900px;
+  margin: 100px auto;
+  background: #fff;
+  padding: 50px;
+}
+.teacher * {
+  color: #000;
+}
+.teacher .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 15px;
+  cursor: pointer;
+}
+.teacher img {
+  float: left;
+}
+.teacher .info {
+  float: left;
+  margin-left: 30px;
+  width: 600px;
+}
+.teacher .info ul {
+  padding-left: 0;
+}
+.teacher .info li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.teacher .info span {
+  color: #808080;
+}
+/* список учителей */
+.mini-teacher {
+  display: block;
+  clear: both;
+}
+.mini-teacher .name {
+  font-weight: bold;
+  color: #eee;
+}
+.mini-teacher span {
+  color: #808080;
+}
+.mini-teacher div,
+.mini-teacher img {
+  float: left;
+  margin: 10px;
+  cursor: pointer;
+}
+.clearfix:after {
+  content: " " /* Older browser do not support empty content */;
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.linebreaker {
+  white-space: pre;
+}
