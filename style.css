@@ -123,6 +123,9 @@ header a.glavs:hover {
 .container .sidebar li * {
   margin-left: 30px;
 }
+.container .sidebar .gsInformer {
+  margin-left: 40px;
+}
 .container .content {
   float: left;
   width: 700px;
