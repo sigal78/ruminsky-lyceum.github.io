@@ -226,6 +226,7 @@ a:visited {
   cursor: pointer;
 }
 .teacher img {
+  margin-top: 26px;
   float: left;
 }
 .teacher .info {
