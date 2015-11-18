@@ -147,6 +147,7 @@ header a.glavs:hover {
   font-family: 'Linux Biolinum', sans-serif;
   text-align: center;
   text-decoration: underline;
+  margin-top: 50px;
 }
 .container footer .line {
   height: 20px;
