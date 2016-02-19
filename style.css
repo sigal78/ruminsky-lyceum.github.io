@@ -51,8 +51,10 @@ body {
   color: #eee;
 }
 .top-background {
-  background: url("winter.jpg");
-  height: 100px;
+  background: url("lenta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 175px;
   width: 100%;
 }
 header {
