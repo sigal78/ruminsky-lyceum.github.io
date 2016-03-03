@@ -146,6 +146,18 @@ header a.glavs:hover {
   float: left;
   width: 400px;
 }
+.container a.creativity {
+  display: block;
+  margin-bottom: 20px;
+}
+.container a.creativity img {
+  float: left;
+}
+.container a.creativity h1 {
+  margin-left: 30px;
+  width: 400px;
+  float: left;
+}
 .container footer {
   display: block;
   font-size: 12px;
