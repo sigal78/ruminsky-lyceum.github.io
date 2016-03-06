@@ -54,11 +54,12 @@ body {
   color: #eee;
 }
 .top-background {
-  background: url("lenta.png");
+  background: url("spring_header_001.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  height: 100px;
+  background-size: cover;
+  height: 200px;
   width: 100%;
+  box-shadow: 0px -5px 10px -5px #000 inset;
 }
 header {
   padding-bottom: 70px;
