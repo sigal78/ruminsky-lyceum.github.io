@@ -60,10 +60,7 @@ body {
   color: #eee;
 }
 .top-background {
-  background: url("lenta.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100px;
+  height: 50px;
 }
 header {
   padding-bottom: 70px;
