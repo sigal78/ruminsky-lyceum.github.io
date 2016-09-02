@@ -60,10 +60,9 @@ body {
   color: #eee;
 }
 .top-background {
-  background: url("summer-flowers.jpg");
+  background: url("autumn.png");
   background-repeat: y-axis;
   height: 100px;
-  box-shadow: 0px -5px 10px -5px #000 inset;
 }
 header {
   padding-bottom: 70px;
@@ -141,6 +140,9 @@ header a.glavs:hover {
   width: 700px;
   margin-left: 20px;
   font-family: 'Linux Biolinum', sans-serif;
+}
+.container .content .cover {
+  margin-left: 2px;
 }
 .container .information .photo {
   width: 200px;
