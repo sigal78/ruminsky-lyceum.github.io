@@ -135,6 +135,18 @@ header a.glavs:hover {
 .container .sidebar .gsInformer {
   margin-left: 40px;
 }
+.container .sidebar .vk-group,
+.container .sidebar .yt-channel {
+  margin-left: 10px;
+  display: block;
+  line-height: 20px;
+  font-size: 18px;
+}
+.container .sidebar .vk-group img,
+.container .sidebar .yt-channel img {
+  display: inline-block;
+  vertical-align: middle;
+}
 .container .content {
   float: left;
   width: 700px;
