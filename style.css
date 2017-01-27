@@ -59,11 +59,6 @@ body {
   padding: 0;
   color: #eee;
 }
-.top-background {
-  background: url("autumn.png");
-  background-repeat: y-axis;
-  height: 100px;
-}
 header {
   padding-bottom: 70px;
   border-bottom: 1px solid #fff;
