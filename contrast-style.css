@@ -1,0 +1,336 @@
+@import 'fotorama.css';
+@import '/font.css';
+.logo {
+  width: 200px;
+  width: 200px;
+  float: left;
+  padding: 5px;
+}
+p,
+li {
+  font-size: 14px;
+  padding: 5px;
+}
+h1 {
+  font-size: 48px;
+  color: #000;
+}
+h2 {
+  font-size: 48px;
+  color: #000;
+}
+h3 {
+  font-size: 48px;
+  color: #000;
+}
+h4 {
+  text-decoration: underline;
+}
+body {
+  font: 'Linux Biolinum';
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  background-repeat: repeat;
+  background-size: auto;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+.left_text {
+  text-align: right;
+  background: url("down.png");
+}
+.menu {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #fff;
+}
+.menu a {
+  float: left;
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 0 5px;
+  color: #000;
+/*background-color: url("touch.png");*/
+  font-family: , sans-serif;
+  font-size: 32px;
+/*padding-left:15px;*/
+  padding: 5px;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+.menu a.active {
+  border-left: 5px solid #808080;
+}
+.menu a:hover {
+  color: #000;
+  border-left: 5px solid #000;
+}
+.about_text {
+  text-indent: 15px;
+  text-align: justify;
+  font-size: 32px;
+}
+.aboutrl_ul {
+  text-align: justify;
+}
+.aboutrl {
+  color: #fff;
+  font-size: 32px;
+}
+.regulations {
+  font-size: 28px;
+}
+.regulations ul > li {
+  font-size: 28px;
+}
+.eduactivities {
+  font-size: 28px;
+}
+.eduactivities ul > li {
+  font-size: 28px;
+}
+.by-time {
+  font-size: 28px;
+}
+.by-time ul > li {
+  font-size: 28px;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.container .header {
+  text-align: center;
+  font-family: 'Linux Biolinum', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  color: #000;
+}
+.container .leftbar {
+  float: left;
+  width: 360px;
+}
+.container .sidebar {
+  float: left;
+  background-color: rgba(0,0,0,0.05);
+  font-family: 'Linux Biolinum', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.container .sidebar a {
+  color: #000;
+  font-weight: bold;
+}
+.container .sidebar p {
+  color: #000;
+}
+.container .sidebar h1,
+.container .sidebar h3 {
+  margin-left: 40px;
+  font-size: 24px;
+}
+.container .sidebar .map {
+  margin-left: 40px;
+}
+.container .sidebar ul {
+  padding: 0;
+}
+.container .sidebar li {
+  margin: 0px 10px;
+  list-style-type: none;
+  border-top: 1px dotted #000;
+}
+.container .sidebar li * {
+  margin-left: 30px;
+  font-size: 18px;
+}
+.container .sidebar .gsInformer {
+  margin-left: 40px;
+}
+.container .sidebar .vk-group,
+.container .sidebar .yt-channel {
+  margin-left: 10px;
+  display: block;
+  line-height: 20px;
+  font-size: 18px;
+}
+.container .sidebar .vk-group img,
+.container .sidebar .yt-channel img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.container .content {
+  float: left;
+  width: 700px;
+  margin-left: 20px;
+  font-family: 'Linux Biolinum', sans-serif;
+}
+.container .content .cover {
+  margin-left: 2px;
+}
+.container a.creativity {
+  display: block;
+  margin-bottom: 20px;
+}
+.container a.creativity img {
+  float: left;
+}
+.container a.creativity h1 {
+  margin-left: 30px;
+  width: 400px;
+  float: left;
+}
+.container footer {
+  display: block;
+  font-size: 18px;
+  font-family: 'Linux Biolinum', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+.container footer .line {
+  height: 20px;
+  width: 100%;
+  content: " ";
+  border-top: 1px solid #000;
+}
+.container footer .column {
+  float: left;
+  display: block;
+  width: 20%;
+  height: 350px;
+  border-right: 2px dotted #ccc;
+  padding: 2%;
+}
+.container footer .column .title {
+  font-size: 28px;
+}
+.container footer .column .item {
+  font-family: 'Linux Biolinum', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.container footer .column.last {
+  border-right: none;
+}
+.copyright {
+  padding-top: 50px /* Поля */;
+  margin: auto /* Выравнивание по центру */;
+  color: #000 /* Цвет текста */;
+  font-size: 18px;
+}
+.map1 {
+  width: 200px;
+}
+/*кнопка поднятия вверх сайта*/
+#toTop {
+  position: fixed;
+  bottom: 20px;
+  right: 2px;
+  background: none;
+  cursor: pointer;
+}
+.fotorama {
+  width: 900px;
+  align-content: center;
+}
+a,
+a:visited {
+  color: #000;
+}
+.holy {
+  text-decoration: underline;
+}
+/* выскакивающие окна */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+  overflow-y: scroll;
+  text-align: justify;
+}
+.overlay .teacher {
+  position: relative;
+  width: 900px;
+  margin: 100px auto;
+  background: #fff;
+  padding: 50px;
+}
+.overlay .teacher * {
+  color: #000;
+}
+.overlay .teacher .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 15px;
+  cursor: pointer;
+  font-size: 50px;
+}
+.overlay .teacher img {
+  margin-top: 26px;
+  float: left;
+}
+.overlay .teacher .info {
+  float: left;
+  margin-left: 30px;
+  width: 600px;
+}
+.overlay .teacher .info ul {
+  padding-left: 0;
+}
+.overlay .teacher .info li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.overlay .teacher .info span {
+  color: #808080;
+}
+.content.index {
+  font-size: 28px;
+/* список учителей */
+}
+.content.index .information .photo {
+  width: 100%;
+}
+.content.index .information .text {
+  font-size: 28px;
+}
+.content.index .management ul > li {
+  font-size: 28px;
+}
+.content.index .mini-teacher {
+  display: block;
+  clear: both;
+}
+.content.index .mini-teacher .name {
+  font-weight: bold;
+  color: #000;
+}
+.content.index .mini-teacher span {
+  color: #808080;
+}
+.content.index .mini-teacher div,
+.content.index .mini-teacher img {
+  float: left;
+  margin: 10px;
+  cursor: pointer;
+}
+.clearfix:after {
+  content: " " /* Older browser do not support empty content */;
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.linebreaker {
+  white-space: pre;
+}
