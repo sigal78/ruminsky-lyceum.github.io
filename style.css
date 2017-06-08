@@ -60,8 +60,26 @@ body {
   color: #eee;
 }
 header {
-  padding-bottom: 70px;
+  padding-bottom: 80px;
   border-bottom: 1px solid #fff;
+}
+header .left {
+  float: left;
+  width: 15%;
+}
+header .center {
+  float: left;
+  width: 69%;
+}
+header .right {
+  float: left;
+  width: 15%;
+}
+header .right .visually-impaired {
+  font-size: 16px;
+}
+header .menu {
+  margin-top: 40px;
 }
 header a.glavs {
   float: left;

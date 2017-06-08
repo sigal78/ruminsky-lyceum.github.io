@@ -98,6 +98,23 @@ body {
 .by-time ul > li {
   font-size: 28px;
 }
+header .left {
+  padding-top: 20px;
+  float: left;
+  width: 10%;
+}
+header .center {
+  float: left;
+  width: 79%;
+}
+header .right {
+  padding-top: 40px;
+  float: left;
+  width: 10%;
+}
+header .right .visually-impaired {
+  font-size: 16px;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
