@@ -327,3 +327,12 @@ a:visited {
 .linebreaker {
   white-space: pre;
 }
+table.eduactivities {
+  border-collapse: collapse;
+}
+table.eduactivities th,
+table.eduactivities td {
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+}
