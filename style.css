@@ -59,12 +59,6 @@ body {
   padding: 0;
   color: #eee;
 }
-.top-background {
-  background: url("/winter.jpg");
-  height: 100px;
-  width: 100%;
-  box-shadow: 0px -5px 10px -5px #000 inset;
-}
 header {
   padding-bottom: 80px;
   border-bottom: 1px solid #fff;
@@ -108,6 +102,10 @@ header a.glavs:hover {
 .container {
   width: 1140px;
   margin: 0 auto;
+}
+.container article p,
+.container article li {
+  font-size: 16px;
 }
 .container .header {
   text-align: center;
