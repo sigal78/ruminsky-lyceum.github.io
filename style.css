@@ -62,7 +62,7 @@ body {
 .top-background {
   background: url("/spring_header_001.jpg");
   background-size: cover;
-  height: 100px;
+  height: 200px;
   width: 100%;
   box-shadow: 0px -5px 10px -5px #000 inset;
 }
