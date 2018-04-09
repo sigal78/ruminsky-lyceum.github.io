@@ -59,6 +59,13 @@ body {
   padding: 0;
   color: #eee;
 }
+.top-background {
+  background: url("/spring_header_001.jpg");
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px -5px 10px -5px #000 inset;
+}
 header {
   padding-bottom: 80px;
   border-bottom: 1px solid #fff;
